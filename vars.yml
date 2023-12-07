@@ -5,4 +5,4 @@ name: Declare variable at Play level
   tasks:
     - name: Access a variable
       ansible.builtin.debug:
-        msg: URL == {{URL}}
+      msg: URL == {{URL}}
