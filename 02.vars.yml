@@ -37,5 +37,4 @@
     - name: Access variable
       ansible.builtin.debug:
         msg: URL == {{URL}}
-      vars:
-        URL: task.example.com
+      
