@@ -9,6 +9,7 @@
         msg: URL == {{URL}}
 
 - name: Declare variable in anothe file
+  hosts: all
   connection: local
   vars_files:
     - var.yml
