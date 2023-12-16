@@ -27,8 +27,7 @@
     - name: Declare and access a variable
       ansible.builtin.debug:
         msg: URL == {{URL}}
-      vars:
-        URL: task.example.com
+        
      
 - name: Declare variable from inventory file
   hosts: all
